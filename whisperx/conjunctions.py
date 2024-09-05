@@ -1,6 +1,9 @@
 # conjunctions.py
 
 conjunctions_by_language = {
+    'ca': {'i', 'o', 'però', 'perquè', 'encara', 'mentre', 'quan', 'on', 'com', 'si', 'que', 'abans', 'després', 'tan', 'fins', 'a', 'malgrat', 'doncs', 'ja', 'ni', 'sinó'},
+    'gl': {'e', 'ou', 'pero', 'porque', 'aínda', 'mentres', 'cando', 'onde', 'como', 'se', 'que', 'antes', 'despois', 'tan', 'ata', 'a', 'pese', 'logo', 'nin', 'senón'},
+    'eu': {'eta', 'edo', 'baina', 'zeren', 'bitartean', 'noiz', 'non', 'nola', 'baldin', 'zein', 'aurretik', 'ondoren', 'bezain laster', 'arte', 'ez', 'arren', 'beraz', 'bai', 'ezta'},
     'en': {'and', 'whether', 'or', 'as', 'but', 'so', 'for', 'nor', 'which', 'yet', 'although', 'since', 'unless', 'when', 'while', 'because', 'if', 'how', 'that', 'than', 'who', 'where', 'what', 'near', 'before', 'after', 'across', 'through', 'until', 'once', 'whereas', 'even', 'both', 'either', 'neither', 'though'},
     'fr': {'et', 'ou', 'mais', 'parce', 'bien', 'pendant', 'quand', 'où', 'comme', 'si', 'que', 'avant', 'après', 'aussitôt', 'jusqu’à', 'à', 'malgré', 'donc', 'tant', 'puisque', 'ni', 'soit', 'bien', 'encore', 'dès', 'lorsque'},
     'de': {'und', 'oder', 'aber', 'weil', 'obwohl', 'während', 'wenn', 'wo', 'wie', 'dass', 'bevor', 'nachdem', 'sobald', 'bis', 'außer', 'trotzdem', 'also', 'sowie', 'indem', 'weder', 'sowohl', 'zwar', 'jedoch'},
@@ -26,7 +29,6 @@ conjunctions_by_language = {
     'ko': {'그리고', '또는','그런데','그래도', '이나', '결국', '마지막으로', '마찬가지로', '반면에', '아니면', '거나', '또는', '그럼에도', '그렇기', '때문에', '덧붙이자면', '게다가', '그러나',  '고', '그래서', '랑', '한다면', '하지만', '무엇', '왜냐하면', '비록', '동안', '언제', '어디서', '어떻게', '만약', '그', '전에', '후에', '즉시', '까지', '아니라면', '불구하고', '따라서', '같은', '도'},
     'ur': {'اور', 'یا', 'مگر', 'کیونکہ', 'اگرچہ', 'جبکہ', 'جب', 'کہاں', 'کس طرح', 'اگر', 'کہ', 'سے پہلے', 'کے بعد', 'جیسے ہی', 'تک', 'اگر نہیں تو', 'کے باوجود', 'اس لئے', 'جیسے', 'نہ'},
     'hi': {'और', 'या', 'पर', 'तो', 'न', 'फिर', 'हालांकि', 'चूंकि', 'अगर', 'कैसे', 'वह', 'से', 'जो', 'जहां', 'क्या', 'नजदीक', 'पहले', 'बाद', 'के', 'पार', 'माध्यम', 'तक', 'एक', 'जबकि', 'यहां', 'तक', 'दोनों', 'या', 'न', 'हालांकि'}
-
 }
 
 commas_by_language = {
