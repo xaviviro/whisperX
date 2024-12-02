@@ -5,4 +5,4 @@ transformers
 pandas
 setuptools>=65
 nltk
-pyannote.audio
+pyannote.audio==3.3.2

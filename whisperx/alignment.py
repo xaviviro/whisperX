@@ -26,10 +26,13 @@ DEFAULT_ALIGN_MODELS_TORCH = {
     "fr": "VOXPOPULI_ASR_BASE_10K_FR",
     "de": "VOXPOPULI_ASR_BASE_10K_DE",
     "es": "VOXPOPULI_ASR_BASE_10K_ES",
+    "ca": "VOXPOPULI_ASR_BASE_10K_ES",
     "it": "VOXPOPULI_ASR_BASE_10K_IT",
 }
 
 DEFAULT_ALIGN_MODELS_HF = {
+    "eu": "cahya/wav2vec2-large-xlsr-basque",
+    "gl": "ifrz/wav2vec2-large-xlsr-galician",
     "ja": "jonatasgrosman/wav2vec2-large-xlsr-53-japanese",
     "zh": "jonatasgrosman/wav2vec2-large-xlsr-53-chinese-zh-cn",
     "nl": "jonatasgrosman/wav2vec2-large-xlsr-53-dutch",
